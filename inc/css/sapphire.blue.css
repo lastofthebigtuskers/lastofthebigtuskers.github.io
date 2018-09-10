@@ -195,12 +195,12 @@ html article#hex-CCCCFF {
 @media only screen and (max-width:1025px) {
 
   html {
-    -webkit-text-size-adjust:calc(37.5% + 2.5 * ((100vw - 661px) / 364));
-       -moz-text-size-adjust:calc(37.5% + 2.5 * ((100vw - 661px) / 364));
-        -ms-text-size-adjust:calc(37.5% + 2.5 * ((100vw - 661px) / 364));
-         -o-text-size-adjust:calc(37.5% + 2.5 * ((100vw - 661px) / 364));
-    font-size:calc(37.5% + 2.5 * ((100vw - 661px) / 364));
-    size:calc(37.5% + 2.5 * ((100vw - 661px) / 364));
+    -webkit-text-size-adjust:calc(37.5% + 4 * ((100vw - 661px) / 364));
+       -moz-text-size-adjust:calc(37.5% + 4 * ((100vw - 661px) / 364));
+        -ms-text-size-adjust:calc(37.5% + 4 * ((100vw - 661px) / 364));
+         -o-text-size-adjust:calc(37.5% + 4 * ((100vw - 661px) / 364));
+    font-size:calc(37.5% + 4 * ((100vw - 661px) / 364));
+    size:calc(37.5% + 4 * ((100vw - 661px) / 364));
   }
 
 }
