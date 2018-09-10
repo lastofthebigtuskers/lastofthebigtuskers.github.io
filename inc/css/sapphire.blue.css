@@ -192,7 +192,20 @@ html article#hex-CCCCFF {
   background:#CCCCFF;
 }
 
-@media only screen and (max-device-width:661px) {
+@media only screen and (max-width:1025px) {
+
+  html {
+    -webkit-text-size-adjust:calc(37.5% + 25 * ((100vw - 661px) / 364));
+       -moz-text-size-adjust:calc(37.5% + 25 * ((100vw - 661px) / 364));
+        -ms-text-size-adjust:calc(37.5% + 25 * ((100vw - 661px) / 364));
+         -o-text-size-adjust:calc(37.5% + 25 * ((100vw - 661px) / 364));
+    font-size:calc(37.5% + 25 * ((100vw - 661px) / 364));
+    size:calc(37.5% + 25 * ((100vw - 661px) / 364));
+  }
+
+}
+
+@media only screen and (max-width:661px) {
 
   html {
     -webkit-text-size-adjust:37.5%;
