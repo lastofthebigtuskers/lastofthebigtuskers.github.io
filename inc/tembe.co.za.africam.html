@@ -1,0 +1,21 @@
+<script type="text/javascript" src="https://bigtuskers.com/inc/js/jw.player.7.js"></script>
+
+<div id="myElement"></div>
+<script>jwplayer.key="Iw59qCUVvemdsznX35RMFvIs/MqeRX0oDgHTgQ==";</script>
+<script type="text/javascript">
+     jwplayer("myElement").setup({
+     androidhls: true,
+     playlist: [{
+     sources: [{
+          file: "http://stream.africam.com:1935/tm/tm.stream_360p/manifest.mpd"
+          },{
+          file: "http://stream.africam.com:1935/tm/tm.stream_360p/playlist.m3u8"
+          },{
+          file: "rtmp://stream.africam.com:1935/tm/tm.stream_360p"
+     }],
+     image: "https://s3-us-west-2.amazonaws.com/africamdrupalfiles/cameras/tm/tm.jpg",
+     }],
+          width: "100%",
+          aspectratio: "16:9"
+     });
+</script>
