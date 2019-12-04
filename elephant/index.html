@@ -19,11 +19,6 @@
   <link rel="stylesheet" id="twentyseventeen-style-css" href="../inc/css/style.css" type="text/css" media="all" />
   <link rel="stylesheet" id="twentyseventeen-colors-dark-css"  href="../inc/css/colors-dark.css" type="text/css" media="all" />
 
-  <style>body.home, body.parent-pageid-45 { display: none; }</style>
-
-  <noscript>
-    <style>body.home, body.parent-pageid-45 { display: block; }</style></noscript>
-
 </head>
 
 <body class="page-template-default page page-id-45 page-parent has-header-image page-two-column title-tagline-hidden colors-dark">
@@ -32,7 +27,7 @@
 
     <header id="masthead" class="site-header">
 
-      <div id="navigation-top" class="navigation-top">
+      <div id="navigation-top" class="navigation-top site-navigation-fixed">
         <div class="wrap">
           <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 
@@ -99,9 +94,7 @@
                   <h5><a href="satao/" title="Last of the Big Tuskers / Satao">Satao</a></h5>
                   <h5><a href="tim/" title="Last of the Big Tuskers / Tim">Tim</a> &amp; <a href="craig/" title="Last of the Big Tuskers / Craig">Craig</a></h5>
 
-                  <p>&nbsp;</p>
-
-                  <p>For Isilo, and for Tom, Tembe Elephant Park is where a story was lived and loved. For everyone else, this big part of their story continues on &ndash; a story with big tuskers.</p>
+                  <p>&nbsp;<br>For Isilo, and for Tom, Tembe Elephant Park is where a story was lived and loved. For everyone else, this big part of their story continues on &ndash; a story with big tuskers.</p>
                 </div><!-- .entry-content -->
               </article><!-- #post-## -->
               <br class="clear">
@@ -144,46 +137,6 @@
       </symbol>
     </defs>
   </svg>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>
-    $( document ).ready(function() {
-
-    var header = $('.custom-header-media'),
-    range = 500;
-
-    $( window ).on( 'scroll', function() {
-
-    var nav_scroll = $( this ).scrollTop(),
-    height = header.outerHeight(),
-          offset = height / 1,
-          calc = 1 - (nav_scroll - offset + range) / range;
-
-      header.css({ 'opacity': calc });
-
-      if (calc > '1') {
-        header.css({ 'opacity': 1 });
-      } else if ( calc < '0.125' ) {
-    $('.navigation-top').addClass('site-navigation-fixed');
-      } else if ( calc < '0' ) {
-        header.css({ 'opacity': 0 });
-      } else {
-    $('.navigation-top').removeClass('site-navigation-fixed'); }
-    });
-
-    });
-
-    $( window ).on( 'load', function() {
-    var nav_scroll = $( this ).scrollTop(),
-    nav_top = $('.navigation-top').offset().top;
-
-    if(nav_scroll > nav_top) {
-    $('.navigation-top').addClass('site-navigation-fixed');
-    } else { }
-
-    $('body').fadeIn(1200);
-    });
-  </script>
 
 </body>
 </html>
