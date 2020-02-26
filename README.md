@@ -1,6 +1,5 @@
-# animathabitat.github.io/periwinkle.blue
-HTML, CSS, JS is open source.
-Google Fonts: “Trocchi” is designed by Vernon Adams, and licensed under the SIL Open Font License.
+# lastofthebigtuskers.github.io
+Last of the Big Tuskers website designed and developed by Dane Aleksander with GitHub Pages. Licensed font(s): “Casablanca” (1997) [Light] principally designed by Steve Jackaman for URW++; “Tabwa” (2007) [Regular] designed by Anton Scholtz for Scholtz Fonts.
 
-# periwinkle.blue
-Art is copyright © 2016-2018 by Dane Aleksander. https://animathabitat.org/c/
+# bigtuskers.com
+Art is copyright © 2016-2020 Umboko Productions. https://animathabitat.github.io/c/
