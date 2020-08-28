@@ -120,7 +120,6 @@ pre, code, kbd, samp {
 .parent-pageid-45 .site-content {
   padding: 0;
 }
-.parent-pageid-45 .custom-header,
 .parent-pageid-45 .site-content {
   display: block;
   height: auto;
@@ -202,6 +201,22 @@ body:not(.twentyseventeen-front-page):not(.parent-pageid-45) .entry-header {
   padding: 6em 2em 0;
 }
 
+.parent-pageid-45 .entry-header,
+.parent-pageid-45 .entry-content {
+  position: fixed;
+}
+
+.parent-pageid-45:not(.page-id-59) .entry-header,
+.parent-pageid-45:not(.page-id-59) .entry-content {
+  right: 0;
+  padding-right: 6em;
+}
+.parent-pageid-45 .entry-header {
+  top: 8em;
+}
+.parent-pageid-45 .entry-content {
+  top: 13em;
+}
 
 
 /* 13.3 Page */
@@ -563,11 +578,6 @@ body.colors-dark,
     text-shadow: -1px 2px #282522;
   }
 
-}
-
-
-@media only screen and (min-width: 1025px) {
-
   /* Front Page */
 
   .has-header-image .custom-header-media img,
@@ -579,6 +589,7 @@ body.colors-dark,
   .twentyseventeen-front-page.has-header-video .custom-header,
   .home.blog.has-header-image .custom-header,
   .home.blog.has-header-video .custom-header,
+  .parent-pageid-45 .custom-header,
   .parent-pageid-45 .custom-header-media,
   .parent-pageid-45 .site-content {
     display: block;
@@ -611,15 +622,6 @@ body.colors-dark,
   .parent-pageid-45 .site-content .wrap {
     padding: 7.5em 6em 0;
   }
-  .parent-pageid-45 .entry-header,
-  .parent-pageid-45 .entry-content {
-    position: fixed;
-  }
-  .parent-pageid-45:not(.page-id-59) .entry-header,
-  .parent-pageid-45:not(.page-id-59) .entry-content {
-    right: 0;
-    padding-right: 6em;
-  }
   .parent-pageid-45 .entry-header {
     top: 12em;
   }
@@ -637,6 +639,11 @@ body.colors-dark,
     position: relative;
     z-index: 2;
   }
+
+}
+
+
+@media only screen and (min-width: 1025px) {
 
 
   /* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. *//*
