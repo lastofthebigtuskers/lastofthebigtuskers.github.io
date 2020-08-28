@@ -92,7 +92,7 @@ pre, code, kbd, samp {
   height: 100vh;
 }
 .parent-pageid-45 .custom-header {
-  display: table;
+  display: none;
   min-width: 100%;
   height: auto;
 }
