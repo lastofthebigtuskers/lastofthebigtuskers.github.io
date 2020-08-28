@@ -1506,12 +1506,8 @@ iframe.video {
 
 @media only screen and ( min-width: 661px ) {
 
-  html {
-    /* font-size: calc( 16px + ( 2 * ( ( 100vw - 661px ) / 364 ) ) ); */
-  }
-
   .main-navigation ul ul {
-    /* padding-top: calc( ( 8px / 3 ) + ( 0.4375 * ( ( 100vw - 661px ) / 364 ) ) ); */
+    padding-top: calc( 6px + ( 1.2 * ( ( 100vw - 661px ) / 364 ) ) );
   }
 
   h1 {
@@ -1532,7 +1528,7 @@ iframe.video {
   }
 
   .parent-pageid-45 .entry-header h3 {
-    font-size: 6rem;
+    font-size: calc( 48px + ( 32 * ( ( 100vw - 661px ) / 364 ) ) );
   }
   .parent-pageid-45 .entry-content h5 {
     /* font-size: 2rem; */
@@ -1808,10 +1804,6 @@ iframe.video {
 
 @media only screen and (min-width: 1009px) {
 
-  html {
-    /* font-size: 16px; */
-  }
-
   .main-navigation ul ul {
     padding-top: 0.3em;
   }
@@ -1833,25 +1825,12 @@ iframe.video {
     font-size: 1.5em;
   }
 
+  .parent-pageid-45 .entry-header h3 {
+    font-size: 5em;
+  }
+
   .wp-custom-header {
     display: none;
-  }
-
-  .page-two-column .panel-content .recent-posts {
-    clear: right;
-  }
-  .primary {
-    width: 58%;
-  }
-  .secondary {
-    width: 36%;
-  }
-  .donate, .laurel {
-    width: 34.72%; /* 25% */
-  }
-
-  iframe.video {
-    height: 16.875em;
   }
 
   /* Front Page - Recent Posts */
@@ -1874,6 +1853,23 @@ iframe.video {
   .error404.has-sidebar #primary .page-content {
     float: right;
     width: 58%;
+  }
+
+  .page-two-column .panel-content .recent-posts {
+    clear: right;
+  }
+  .primary {
+    width: 58%;
+  }
+  .secondary {
+    width: 36%;
+  }
+  .donate, .laurel {
+    width: 34.72%; /* 25% */
+  }
+
+  iframe.video {
+    height: 16.875em;
   }
 
 }
