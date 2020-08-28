@@ -1089,6 +1089,11 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .panel-content .recent-posts .entry-header {
   margin-bottom: 0;
 }
+.parent-pageid-45:not(.page-id-59) .entry-header,
+.parent-pageid-45:not(.page-id-59) .entry-content {
+  right: 0;
+  padding-right: 1.5em;
+}
 
 .edit-link {
   display: none;
@@ -1105,6 +1110,159 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .recent-posts .entry-header {
   margin-bottom: 1em;
 }
+
+/* Custom Page Header CSS */
+.parent-pageid-45 .entry-header h3 {
+  /* font-size: 4rem; */
+}
+.parent-pageid-45 .entry-content h5 {
+  /* font-size: 1.333rem; */
+}
+
+.twentyseventeen-front-page.has-header-image .site-branding,
+.twentyseventeen-front-page.has-header-video .site-branding,
+.home.blog.has-header-image .site-branding,
+.home.blog.has-header-video .site-branding,
+.parent-pageid-45 .site-branding {
+  bottom: 20%;
+  left: 0;
+  height: auto;
+  padding-top: 0;
+  position: absolute;
+  width: 100%;
+}
+.parent-pageid-45 .site-branding {
+  display: table-cell;
+}
+
+.twentyseventeen-front-page.has-header-image .custom-header,
+.twentyseventeen-front-page.has-header-video .custom-header,
+.home.blog.has-header-image .custom-header,
+.home.blog.has-header-video .custom-header {
+  display: table;
+  min-width: 100%;
+  height: 100vh;
+}
+.parent-pageid-45 .custom-header,
+.parent-pageid-45 .custom-header-media {
+  display: none;
+}
+
+/*.has-header-image:not(.twentyseventeen-front-page):not(.home):not(.parent-pageid-45) .custom-header-media img {
+  bottom: 0;
+  position: absolute;
+  top: auto;
+} */
+
+.has-header-image:not(.twentyseventeen-front-page):not(.home):not(.parent-pageid-45) .custom-header-media,
+.has-header-video:not(.twentyseventeen-front-page):not(.home):not(.parent-pageid-45) .custom-header-media {
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.parent-pageid-45.has-header-image .custom-header-media .wp-custom-header {
+  display: none;
+}
+.twentyseventeen-front-page .site-content,
+.parent-pageid-45 .site-content {
+  padding: 0;
+}
+.parent-pageid-45 .site-content {
+  display: block;
+  height: auto;
+}
+.parent-pageid-45 .custom-header-media,
+.parent-pageid-45 .site-content {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+.parent-pageid-45 .site-content .wrap {
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 4.5em 1em 0;
+}
+.parent-pageid-45 .custom-header-media {
+  background-attachment: local;
+  position: fixed;
+  height: 100vh;
+}
+.parent-pageid-45 .site-content {
+  background-attachment: local;
+}
+
+.twentyseventeen-front-page article.page,
+.parent-pageid-45 article.page {
+  margin-top: 0;
+}
+
+/* div.site, header.site-header, div.custom-header-media, div.wp-custom-header, div.site-branding, div.site-branding-text,
+div.content-area, div.site-main, article.twentyseventeen-panel, div.panel-content, div.panel-content>div.wrap, header.entry-header, div.entry-content {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+} */
+
+body:not(.twentyseventeen-front-page):not(.parent-pageid-45) .entry-header {
+  padding: 1em 0;
+}
+body:not(.twentyseventeen-front-page):not(.parent-pageid-45) .entry-header,
+body:not(.twentyseventeen-front-page):not(.parent-pageid-45) .entry-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+body:not(.twentyseventeen-front-page):not(.parent-pageid-45) .entry-header {
+  padding-top: 0;
+}
+
+.parent-pageid-45:not(.page-id-59) .entry-header,
+.parent-pageid-45:not(.page-id-59) .entry-content {
+  text-align: right;
+}
+
+/* Single Post */
+
+.single-post:not(.has-sidebar) #primary,
+.page.page-one-column:not(.twentyseventeen-front-page) #primary,
+.page.page-one-column:not(.parent-pageid-45) #primary,
+.archive.page-one-column:not(.has-sidebar) .page-header,
+.archive.page-one-column:not(.has-sidebar) #primary {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+/* Pages */
+
+.parent-pageid-45 .site-content .wrap {
+  padding: 6em 2em 0;
+}
+
+.parent-pageid-45 .entry-header,
+.parent-pageid-45 .entry-content {
+  position: fixed;
+}
+.parent-pageid-45 .entry-header {
+  top: 8em;
+}
+.parent-pageid-45 .entry-content {
+  top: 13em;
+}
+
 
 /*--------------------------------------------------------------
 13.3 Regular Content
@@ -1507,28 +1665,28 @@ iframe.video {
 @media only screen and ( min-width: 661px ) {
 
   .main-navigation ul ul {
-    padding-top: calc( 6px + ( 1.2 * ( ( 100vw - 661px ) / 364 ) ) );
+    padding-top: calc( 6px + ( 1.2 * ( ( 100vw - 661px ) / 348 ) ) );
   }
 
   h1 {
-    font-size: calc( 128px + ( 64 * ( ( 100vw - 661px ) / 364 ) ) );
+    font-size: calc( 128px + ( 64 * ( ( 100vw - 661px ) / 348 ) ) );
   }
   h2 {
-    font-size: calc( 48px + ( 16 * ( ( 100vw - 661px ) / 364 ) ) );
+    font-size: calc( 48px + ( 16 * ( ( 100vw - 661px ) / 348 ) ) );
   }
   h3 {
-    font-size: calc( 24px + ( 16 * ( ( 100vw - 661px ) / 364 ) ) );
+    font-size: calc( 24px + ( 16 * ( ( 100vw - 661px ) / 348 ) ) );
   }
   h4,
   h5 {
-    font-size: calc( 18px + ( 14 * ( ( 100vw - 661px ) / 364 ) ) );
+    font-size: calc( 18px + ( 14 * ( ( 100vw - 661px ) / 348 ) ) );
   }
   ul.menu > li.menu-item {
-    font-size: calc( 18px + ( 6 * ( ( 100vw - 661px ) / 364 ) ) );
+    font-size: calc( 18px + ( 6 * ( ( 100vw - 661px ) / 348 ) ) );
   }
 
   .parent-pageid-45 .entry-header h3 {
-    font-size: calc( 48px + ( 32 * ( ( 100vw - 661px ) / 364 ) ) );
+    font-size: calc( 48px + ( 32 * ( ( 100vw - 661px ) / 348 ) ) );
   }
   .parent-pageid-45 .entry-content h5 {
     /* font-size: 2rem; */
@@ -1583,6 +1741,72 @@ iframe.video {
   }
   .panel-content h3 {
     padding-top: 1em;
+  }
+
+  /* Front Page */
+
+  .has-header-image .custom-header-media img,
+  .has-header-video .custom-header-media video,
+  .has-header-video .custom-header-media iframe {
+    /* max-width: 1280px; */
+  }
+  .twentyseventeen-front-page.has-header-image .custom-header,
+  .twentyseventeen-front-page.has-header-video .custom-header,
+  .home.blog.has-header-image .custom-header,
+  .home.blog.has-header-video .custom-header,
+  .parent-pageid-45 .custom-header,
+  .parent-pageid-45 .custom-header-media,
+  .parent-pageid-45 .site-content {
+    display: block;
+    height: auto;
+  }
+  .twentyseventeen-front-page.has-header-image .custom-header-media,
+  .twentyseventeen-front-page.has-header-video .custom-header-media,
+  .home.blog.has-header-image .custom-header-media,
+  .home.blog.has-header-video .custom-header-media,
+  .parent-pageid-45 .custom-header-media,
+  .parent-pageid-45 .site-content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .twentyseventeen-front-page.has-header-image .custom-header-media:before,
+  .twentyseventeen-front-page.has-header-video .custom-header-media:before,
+  .home.blog.has-header-image .custom-header-media:before,
+  .home.blog.has-header-video .custom-header-media:before {
+    height: 33%;
+  }
+  .panel-content .wrap {
+    padding-top: 6em;
+  }
+  .parent-pageid-45 .site-content .wrap {
+    padding: 7.5em 6em 0;
+  }
+  .parent-pageid-45 .entry-header {
+    top: 12em;
+  }
+  .parent-pageid-45 .entry-content {
+    top: 19.5em;
+  }
+  .parent-pageid-45 .entry-header h3 {
+    /* font-size: 6rem; */
+  }
+  .parent-pageid-45 .entry-content h5 {
+    /* font-size: 2rem; */
+  }
+  .parent-pageid-45:not(.page-id-59) .entry-header,
+  .parent-pageid-45:not(.page-id-59) .entry-content {
+    padding-right: 6em;
+  }
+  .parent-pageid-45 .site-footer {
+    background-color: inherit;
+    position: relative;
+    z-index: 2;
   }
 
   /* Posts */
@@ -1827,10 +2051,6 @@ iframe.video {
 
   .parent-pageid-45 .entry-header h3 {
     font-size: 5em;
-  }
-
-  .wp-custom-header {
-    display: none;
   }
 
   /* Front Page - Recent Posts */
