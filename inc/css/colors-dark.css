@@ -644,31 +644,6 @@ body.colors-dark,
     background-attachment: fixed;
   } */
 
-  /* Front Page - Recent Posts */
-
-  body:not(.has-sidebar):not(.page-one-column) .page-header,
-  body.has-sidebar.error404 #primary .page-header,
-  body.page-two-column:not(.archive) #primary .entry-header,
-  body.page-two-column:not(.parent-pageid-45) #primary .entry-header,
-  body.page-two-column.archive:not(.has-sidebar) #primary .page-header,
-  .page-two-column .panel-content .entry-header {
-    float: left;
-    width: 36%;
-  }
-  body.page-two-column:not(.archive):not(.page-id-59) #primary .entry-content,
-  body.page-two-column.parent-pageid-45:not(.page-id-59) #primary .entry-header,
-  .page-two-column .panel-content .entry-content,
-  .page-two-column .panel-content .recent-posts,
-  .blog:not(.has-sidebar) #primary article,
-  .archive:not(.page-one-column):not(.has-sidebar) #primary article,
-  .search:not(.has-sidebar) #primary article,
-  .error404:not(.has-sidebar) #primary .page-content,
-  .error404.has-sidebar #primary .page-content {
-    float: right;
-    width: 58%;
-  }: 34.72%; /* 25% */
-  }
-
 }
 
 @media print {

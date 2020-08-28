@@ -1,17 +1,11 @@
 /*
-Theme Name: Twenty Seventeen
-Theme URI: https://wordpress.org/themes/twentyseventeen/
-Author: the WordPress team
-Author URI: https://wordpress.org/
-Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
-Version: 2.2
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentyseventeen
-Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
+ Theme Name:   Twenty Seventeen Coffee
+ Theme URI:    https://briannaclarke.github.io
+ Description:  Dark Coffee (Last of the Big Tuskers) by Dane Aleksander based on Twenty Seventeen by the WordPress team.
+ Author:       Dane Aleksander
+ Author URI:   https://danealeksander.github.io/
+ Template:     twentyseventeen
+ Version:      0.1.9
 */
 
 /*--------------------------------------------------------------
@@ -456,7 +450,7 @@ textarea {
 h5.linebreak {
   padding-top: 1em;
 }
-li.menu-item,
+ul.menu > li.menu-item,
 .wpcf7-not-valid-tip,
 .wpcf7_validation_error {
 /*font-size: 16pt;
@@ -1533,7 +1527,7 @@ iframe.video {
   h5 {
     font-size: calc( 18px + ( 14 * ( ( 100vw - 661px ) / 364 ) ) );
   }
-  li.menu-item {
+  ul.menu > li.menu-item {
     font-size: calc( 18px + ( 6 * ( ( 100vw - 661px ) / 364 ) ) );
   }
 
@@ -1819,7 +1813,7 @@ iframe.video {
   }
 
   .main-navigation ul ul {
-    /* padding-top: ; */
+    padding-top: 0.3em;
   }
 
   h1 {
@@ -1835,7 +1829,7 @@ iframe.video {
   h5 {
     font-size: 2em;
   }
-  li.menu-item {
+  ul.menu > li.menu-item {
     font-size: 1.5em;
   }
 
@@ -1858,6 +1852,28 @@ iframe.video {
 
   iframe.video {
     height: 16.875em;
+  }
+
+  /* Front Page - Recent Posts */
+
+  body:not(.has-sidebar):not(.page-one-column) .page-header,
+  body.has-sidebar.error404 #primary .page-header,
+  body.page-two-column:not(.archive):not(.parent-pageid-45) #primary .entry-header,
+  body.page-two-column.archive:not(.page-one-column):not(.has-sidebar) #primary .page-header,
+  body.page-two-column .panel-content .entry-header {
+    float: left;
+    width: 36%;
+  }
+  body.page-two-column:not(.archive):not(.parent-pageid-45) #primary .entry-content,
+  body.page-two-column .panel-content .entry-content,
+  body.page-two-column .panel-content .recent-posts,
+  body.blog:not(.has-sidebar) #primary article,
+  body.archive:not(.page-one-column):not(.has-sidebar) #primary article,
+  .search:not(.has-sidebar) #primary article,
+  .error404:not(.has-sidebar) #primary .page-content,
+  .error404.has-sidebar #primary .page-content {
+    float: right;
+    width: 58%;
   }
 
 }
