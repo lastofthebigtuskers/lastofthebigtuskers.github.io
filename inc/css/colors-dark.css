@@ -61,10 +61,10 @@ pre, code, kbd, samp {
 
 /* Custom Page Header CSS */
 .parent-pageid-45 .entry-header h3 {
-  font-size: 4rem;
+  /* font-size: 4rem; */
 }
 .parent-pageid-45 .entry-content h5 {
-  font-size: 1.333rem;
+  /* font-size: 1.333rem; */
 }
 
 .twentyseventeen-front-page.has-header-image .site-branding,
@@ -563,36 +563,6 @@ body.colors-dark,
     text-shadow: -1px 2px #282522;
   }
 
-  /* Front Page - Recent Posts */
-
-  body:not(.has-sidebar):not(.page-one-column) .page-header,
-  body.has-sidebar.error404 #primary .page-header,
-  body.page-two-column:not(.archive) #primary .entry-header,
-  body.page-two-column:not(.parent-pageid-45) #primary .entry-header,
-  body.page-two-column.archive:not(.has-sidebar) #primary .page-header,
-  .page-two-column .panel-content .entry-header {
-    float: left;
-    width: 30%;
-  }
-  body.page-two-column:not(.archive):not(.page-id-59) #primary .entry-content,
-  body.page-two-column.parent-pageid-45:not(.page-id-59) #primary .entry-header,
-  .page-two-column .panel-content .entry-content,
-  .page-two-column .panel-content .recent-posts,
-  .blog:not(.has-sidebar) #primary article,
-  .archive:not(.page-one-column):not(.has-sidebar) #primary article,
-  .search:not(.has-sidebar) #primary article,
-  .error404:not(.has-sidebar) #primary .page-content,
-  .error404.has-sidebar #primary .page-content {
-    float: right;
-    width: 64%;
-  }
-
-  body.page-two-column.parent-pageid-45.page-id-59 #primary .entry-content,
-  body.page-two-column.parent-pageid-45.page-id-59 #primary .entry-header {
-    float: left;
-    width: 64%;
-  }
-
 }
 
 
@@ -657,10 +627,10 @@ body.colors-dark,
     top: 19.5em;
   }
   .parent-pageid-45 .entry-header h3 {
-    font-size: 6rem;
+    /* font-size: 6rem; */
   }
   .parent-pageid-45 .entry-content h5 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
   .parent-pageid-45 .site-footer {
     background-color: inherit;
