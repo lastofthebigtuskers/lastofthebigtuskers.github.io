@@ -2162,7 +2162,9 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 
   .custom-header,
-  .custom-header-media {
+  .custom-header-media,
+  .wp-custom-header,
+  .custom-header-media img {
     display: none;
   }
 
@@ -2175,7 +2177,9 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 
   .custom-header,
-  .custom-header-media {
+  .custom-header-media,
+  .wp-custom-header,
+  .custom-header-media img {
     display: none;
   }
 
