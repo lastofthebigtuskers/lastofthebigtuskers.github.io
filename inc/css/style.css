@@ -1758,9 +1758,14 @@ iframe.video {
     width: 1.5rem;
   }
 
-  .js .main-navigation ul ul {
-    display: block;
-  }
+  .twentyseventeen-front-page.has-header-image .custom-header,
+  .twentyseventeen-front-page.has-header-video .custom-header,
+  .home.blog.has-header-image .custom-header,
+  .home.blog.has-header-video .custom-header,
+  .parent-pageid-45 .custom-header,
+  .parent-pageid-45 .custom-header-media,
+  .parent-pageid-45 .site-content,
+  .js .main-navigation ul ul,
   .main-navigation ul li.menu-item-has-children.focus:before,
   .main-navigation ul li.menu-item-has-children:hover:before,
   .main-navigation ul li.menu-item-has-children.focus:after,
@@ -1806,10 +1811,7 @@ iframe.video {
   .twentyseventeen-front-page.has-header-video .custom-header,
   .home.blog.has-header-image .custom-header,
   .home.blog.has-header-video .custom-header,
-  .parent-pageid-45 .custom-header,
-  .parent-pageid-45 .custom-header-media,
-  .parent-pageid-45 .site-content {
-    display: block;
+  .parent-pageid-45 .custom-header {
     height: auto;
   }
   .twentyseventeen-front-page.has-header-image .custom-header-media,
@@ -2161,11 +2163,19 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
-  .custom-header,
-  .custom-header-media,
-  .wp-custom-header,
-  .custom-header-media img {
+  .parent-pageid-45 .custom-header,
+  .parent-pageid-45 .custom-header-media,
+  .parent-pageid-45 .wp-custom-header,
+  .parent-pageid-45 .custom-header-media img {
     display: none;
+  }
+
+  .parent-pageid-45 .custom-header {
+    height: 0;
+  }
+  .parent-pageid-45 .custom-header-media {
+    height: 0;
+    position: fixed;
   }
 
 }
@@ -2176,11 +2186,19 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
 
-  .custom-header,
-  .custom-header-media,
-  .wp-custom-header,
-  .custom-header-media img {
+  .parent-pageid-45 .custom-header,
+  .parent-pageid-45 .custom-header-media,
+  .parent-pageid-45 .wp-custom-header,
+  .parent-pageid-45 .custom-header-media img {
     display: none;
+  }
+
+  .parent-pageid-45 .custom-header {
+    height: 0;
+  }
+  .parent-pageid-45 .custom-header-media {
+    height: 0;
+    position: fixed;
   }
 
 }
