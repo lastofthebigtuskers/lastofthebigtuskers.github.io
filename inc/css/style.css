@@ -1110,10 +1110,10 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   position: relative;
 }
 .panel-image {
-  background-position: center center;
+  /* background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   position: relative;
   height: 100vh;
   max-height: 100%;
@@ -1622,7 +1622,7 @@ object {
 
 iframe.video {
   /* height: 8.4375em; */
-  height: calc( ( 100vw - 3em ) * 9 / 16 );
+  height: calc( ( 100vw - 48px ) * ( 9 / 16 ) );
   width: 100%;
 }
 
@@ -1997,7 +1997,7 @@ iframe.video {
 
   iframe.video {
     /* height: 16.875em; */
-    height: calc( ( 58vw ) * 9 / 16 );
+    height: calc( ( 58vw ) * ( 9 / 16 ) );
   }
 
   /* Entry content */
@@ -2152,7 +2152,7 @@ iframe.video {
   }
 
   iframe.video {
-    height: 16.875em;
+    height: 16.575em;
   }
 
 }
