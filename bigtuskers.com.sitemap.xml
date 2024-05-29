@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.google.com/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.9
+                      http://www.google.com/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://bigtuskers.com/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>1</priority>
+ </url>
+
+ <url>
+  <loc>https://bigtuskers.com/about/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.1</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/contact/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.1</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/credits/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.1</priority>
+</url>
+ <url>
+  <loc>https://bigtuskers.com/movie/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.1</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/showtimes/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.1</priority>
+</url>
+<url>
+ <loc>https://bigtuskers.com/awards/</loc>
+ <lastmod>2018-03-01</lastmod>
+ <priority>0.1</priority>
+</url>
+
+ <url>
+  <loc>https://bigtuskers.com/support/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <!--url>
+  <loc>https://bigtuskers.com/credits/big-life-foundation/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/credits/elephants-without-borders/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+</url-->
+ <url>
+  <loc>http://bigtuskers.com/credits/tembe-tusker-foundation/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <!--url>
+  <loc>https://bigtuskers.com/credits/tsavo-trust/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/credits/world-wildlife-fund/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+</url-->
+ <url>
+  <loc>https://bigtuskers.com/support/kickstarter/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+</url>
+
+ <url>
+  <loc>https://bigtuskers.com/elephant/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/isilo/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/kamboyo/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/masthulele/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/one-ton/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/satao/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/tim/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+ </url>
+ <url>
+  <loc>https://bigtuskers.com/elephant/craig/</loc>
+  <lastmod>2018-03-01</lastmod>
+  <priority>0.01</priority>
+</url>
+
+</urlset>

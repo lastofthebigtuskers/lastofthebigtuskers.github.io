@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Disallow: /c/
+Disallow: /credits/
+Disallow: /inc/
+Disallow: /support/kickstarter/
+
+Disallow: /feed/
+Disallow: */feed/
+
+
+
+# Sitemap #
+
+Sitemap: /bigtuskers.com.sitemap.xml
